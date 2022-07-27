@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj": {}
+    "c:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj": {
+    "c:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj",
+        "projectPath": "c:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\David Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\obj\\",
+        "outputPath": "c:\\Users\\David Martin\\Documents\\udemyAspApp\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\David Martin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -51,6 +55,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
             }
           },
           "imports": [
